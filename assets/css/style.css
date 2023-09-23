@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 35%, rgba(249,249,249,1) 100%);
+}
+
+main{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header__title{
+  text-align: center;
+  font-size: 40px;
+  padding: 25px 0 30px;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.tabela{
+  text-align: center;
+  padding: 10px 5px 100px 5px;
+  width: 100%;
+}
+
+table{
+  border-collapse: collapse;
+
+}
+
+td {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+ 
+}
+
+.vazio{
+  border: 0;
+}
+
+.nome{
+  font-size: 13px;
+}
+
+.peso{
+  font-size: 10px;
+}
+
+h4{
+  text-align: left;
+  padding-left: 5px;
+}
+
+.nao__metais{
+  background-color: #a2c7d3;
+}
+
+.nao__metais:hover{
+  background-color: #6f96a3;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.gas__nobre{
+  background-color:  #d5e91f;
+}
+
+.gas__nobre:hover{
+  background-color:  #83910b;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.semimetais{
+  background-color: #4dff88;
+}
+
+.semimetais:hover{
+  background-color: #29a753;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.halogenio{
+  background-color: #ffbf00;
+}
+
+.halogenio:hover{
+  background-color: #c09104;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.prop__desc{
+  background-color: #e2e2e2;
+}
+
+.prop__desc:hover{
+  background-color: #acacac;;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.outros__metais{
+  background-color: #008080;
+}
+
+.outros__metais:hover{
+  background-color: #0a5a5a;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.metais__transicao{
+  background-color: #d580ff;
+}
+
+.metais__transicao:hover{
+  background-color: #9f49ca;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.alcalinos{
+  background-color: #7b5ba7;
+}
+
+.alcalinos:hover{
+  background-color: #563b7c;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.alcalinos__terrosos{
+  background-color: #f27eb2;
+}
+
+.alcalinos__terrosos:hover{
+  background-color: #b84076;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.lantanideos{
+  background-color: #66b3ff;
+}
+
+.lantanideos:hover{
+  background-color: #2f71b3;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.actinideos{
+  background-color: #668cff;
+}
+
+.actinideos:hover{
+  background-color: #2855df;
+  cursor: pointer;
+  box-shadow:0px 0px 0px 2px rgb(2, 238, 13) inset;
+}
+
+.tabela__cores{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  gap: 20px;
+  border: 2px solid #dbdbdb;
+  width: 1400px;
+}
+
+.cores__itens{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 10px;
+}
+
+.cores__box{
+  display: inline-block;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  box-shadow: 1px 1px 2px rgb(134, 134, 134);
+}
+
+#cor__nao__metal{
+  background-color: #a2c7d3;
+}
+
+#cor__alcalinos{
+  background-color: #7b5ba7;
+}
+
+#cor__alcalinos__terrosos{
+  background-color: #f27eb2;
+}
+
+#cor__metais__transicao{
+  background-color: #d580ff;
+}
+
+#cor__semi__metais{
+  background-color: #4dff88;
+}
+
+#cor__outros__metais{
+  background-color: #008080;
+}
+
+#cor__halogenios{
+  background-color: #ffbf00;
+}
+
+#cor__gases__nobres{
+  background-color: #d5e91f;
+}
+
+#cor__prop_desc{
+  background-color: #e2e2e2;
+}
+
+#cor__lantanideos{
+  background-color: #66b3ff;
+}
+
+#cor__actinideos{
+  background-color: #668cff;
+}
+
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+  height: 60px;
+}
+
+.footer__link{
+  display: inline-block;
+  padding-right: 5px;
+  transition: all 0.2s;
+}
+
+.footer__link:hover{
+  scale: 1.1;
+}
+
+.footer__desenvolvedora{
+  color: #797979;
+}
+
+
